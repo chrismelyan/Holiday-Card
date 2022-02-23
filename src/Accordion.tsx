@@ -1,4 +1,4 @@
-import React, {useState, MouseEvent} from 'react';
+import React, {useState} from 'react';
 import Gif from "./Gif";
 import './App.css'
 

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {ValueType} from "./Card";
 import Titles from "./Titles";
 
@@ -6,10 +6,6 @@ type StarType = {
     value: ValueType
     selected: boolean
     setValue: (value: ValueType) => void
-    title: string
-}
-
-export type TitleType = {
     title: string
 }
 

@@ -42,7 +42,7 @@ const Body = () => {
             </div>
             {error ? errorMessage : ''}
             <div>
-                <button className={'name-button'} onClick={(e) => addName(name)}>GO</button>
+                <button className={'name-button'} onClick={() => addName(name)}>GO</button>
                 {!collapsed && <Card user={user}/>}
             </div>
         </div>
